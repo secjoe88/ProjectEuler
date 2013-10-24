@@ -5,7 +5,8 @@
 
 def countProducts(digits, numfactors):
 """A simple method to count the products of successive digits in a number. The input value 'digits' is a
-string containing the number, and 'numfactors' is the number of digits to multiply"""
+string containing the number, and 'numfactors' is the number of digits to multiply. Used to solve 
+problem #8"""
     greatestProduct=0
     currentProduct=0
     for i in range(len(digits)-(numfactors-1)):
